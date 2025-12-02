@@ -24,13 +24,13 @@ Select TWO Additional Features to Add
   
 
 .flip-card {
-  background-color: rgba(99, 141, 128, 0.2);
+  background-color: rgba(138, 98, 128, 0.2);
   width: 300px;
   height: 300px;
   perspective: 1000px;
   display: flex;
   justify-content:center;
-  flex-wrap: wrap;
+  padding: 0%;
 }
 
 .flip-card-inner {
@@ -40,7 +40,7 @@ Select TWO Additional Features to Add
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(138, 98, 128, 0.2);
 }
 
 .flip-card:hover .flip-card-inner {
@@ -56,21 +56,24 @@ Select TWO Additional Features to Add
 }
 
 .flip-card-front {
-  background-color: #bbb;
-  color:rgb(0,0,0,0.2);
+  background-color: #d6b1ce;
+  color:rgb(138, 98, 128, 0.2);
+  
 }
 
 .flip-card-back {
   background-color: rgba(173, 172, 172, 0.2);
-  color: rgba(241, 232, 241, 0.767);
+  color: rgba(173, 160, 173, 0.767);
   transform: rotateY(180deg);
+  
 }
   body { 
-    background-color: rgb(152, 219, 188);
     font-family: cursive;
     animation:alternate;
     text-align: center;
+  
   }
+  
   </style>
 </head>
 <body>
